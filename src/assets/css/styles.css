@@ -580,9 +580,16 @@ textarea{
 /*>> 2-4. Component a.k.a Module
 -------------------------------------------------- */
 /*>>> 2-4-1.  Wrapper     [wrp-***]*/
-.wrp-container{
+/* .wrp-container{
 	margin: 0 4vw;
 	max-width: 130rem;
+} */
+.wrp-container {
+	margin: 0 auto;
+	padding: 0 13rem;
+	max-width: 192rem;
+	width: 100%;
+	box-sizing: border-box;
 }
 .wrp-container:after{
 	content: "";

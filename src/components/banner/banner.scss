@@ -1,0 +1,47 @@
+@import "../../assets/css/styles.css";
+@import "../../assets/css/root.scss";
+
+.box-mainvisual{
+	position: relative;
+	 &__image{
+		height: 800px;
+		padding-bottom: 0;
+	 }
+
+	 &__box{
+		position: absolute;
+			left: 0%;
+			top: 0px;
+		// right: 77%;
+		transform: translate(-50%, -50%);
+		// &::before{
+		// 	content: '';
+		// 	background-image: url('../../assets/img/header-border-top.png');
+		// 	background-size: cover;
+		// 	position: absolute;
+		// 	top: 0;
+		// 	display: inline-block;
+			
+		// }
+		// &::after {
+		// 	content: '';
+		// 	background-image: url('../../assets/img/header-border-top.png');
+		// 	transform: rotate(180deg);
+		// 	display: inline-block;
+		// 	position: relative;
+			
+		// }
+	 }
+}
+.xoay{
+	transform: rotate(180deg);
+}
+
+.box-mainvisual__hii{
+	position: relative;
+	width: 70%;
+	top: 0;
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+}
