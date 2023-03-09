@@ -1300,3 +1300,8 @@ h3{
 }
 
 }/* endMedia */
+
+.fluid-image{
+	max-width: 100%;
+	height: auto !important;
+}

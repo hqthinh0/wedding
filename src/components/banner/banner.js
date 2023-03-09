@@ -1,9 +1,7 @@
 import React from "react";
 import "./banner.scss";
-// import $ from 'jquery';
 import imagesBanner from "../../assets/img/header.png";
-// import headerBorderTop from "../../assets/img/header-border-top.png";
-// import headerBorderBot from "../../assets/img/header-border-bottom.png";
+
 const mystyle = {
   backgroundSize: "cover",
   backgroundImage: "url(" + imagesBanner + ")",
