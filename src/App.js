@@ -1,6 +1,6 @@
 import Banner from "./components/banner/banner.js";
 import Location from "./components/location/localtion.js"
-import Map from './components/loadjs.js'
+
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
     
     <div className="App">
       <header className="App-header">
-        {/* <Banner/>
-        <Location/> */}
+        <Banner/>
+        <Location/>
 
           <Map/>
       </header>
