@@ -580,10 +580,17 @@ textarea{
 /*>> 2-4. Component a.k.a Module
 -------------------------------------------------- */
 /*>>> 2-4-1.  Wrapper     [wrp-***]*/
-.wrp-container{
+.wrp-container {
 	margin: 0 4vw;
 	max-width: 130rem;
 }
+/* .wrp-container{
+	margin: 0 auto;
+	padding: 0 13rem;
+	max-width: 192rem;
+	width: 100%;
+	box-sizing: border-box;
+} */
 .wrp-container_mw2k {
 	margin: 0 auto;
 	padding: 0 13rem;
@@ -591,10 +598,15 @@ textarea{
 	width: 100%;
 	box-sizing: border-box;
 }
-.wrp-container_mw1k {
-	max-width: 1000px;
+.wrp-wedding  {
+	max-width: 10rem;
 	padding: 0 20px;
 	margin: 0 auto;
+}
+.wrp-wedding:after {
+	content: "";
+	display: block;
+	clear: both;
 }
 .wrp-container:after{
 	content: "";
@@ -607,6 +619,16 @@ textarea{
 		margin: 0 auto;
 	}
 }/* endMedia */
+@media screen and (max-width: 1200px) {
+.wrp-container {
+		padding: 0 5rem;
+	}
+}
+@media screen and (max-width: 768px){
+	.wrp-container {
+		padding: 0 2rem;
+	}
+} 
 
 .wrp-button{
 	text-align: center;
