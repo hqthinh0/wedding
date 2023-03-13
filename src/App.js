@@ -1,5 +1,6 @@
 import Banner from "./components/banner/banner.js";
-import Location from "./components/location/localtion.js"
+import Location from "./components/location/localtion.js";
+import Story from "./components/story/story.js";
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
         <Banner/>
         <Location/>
 
-          <Map/>
+
+          <Story />
       </header>
     </div>
     </>
