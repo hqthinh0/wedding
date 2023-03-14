@@ -10,9 +10,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Banner/>
-        <Location/>
+      
 
 
+          <Story />
+          <Location />
+          <Story />
           <Story />
       </header>
     </div>
