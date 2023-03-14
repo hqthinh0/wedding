@@ -1,6 +1,8 @@
 @import "../../assets/css/styles.css";
 @import "../../assets/css/root.scss";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 .location{
     &__images{
         background-image: url('../../assets/img/gallery_img--06.jpg');
@@ -10,6 +12,9 @@
         background-position: center center;
         width: 100%;
         background-attachment: fixed;
+        @media screen and (max-width:769px) {
+            background-attachment: scroll;
+        }
             /*  This is what makes the effect work. So that when we scroll the image, it retains its min-height with its attatchment fixed  */
         filter: opacity(0.8) brightness(0.8);
         
