@@ -1,0 +1,42 @@
+@import "../../assets/css/styles.css";
+@import "../../assets/css/root.scss";
+
+.video{
+    margin-top: 5rem;
+    .wrp-container{
+        margin : 0;
+        padding: 0;
+        max-width: 100%;
+        @media screen and (max-width: 1200px) {
+            margin: 0 2vw;
+        }
+    }
+    &__bg{
+            // background: var(--color-1);
+            // width: 100%;
+            // height: auto;
+            // min-height: 90vh;
+            padding: 50px auto;
+    }
+    &__url{
+        overflow: hidden;
+        padding-top: 56.25%;
+        /* 16:9*/
+
+        position: relative;
+
+     & > iframe {
+            border: 0;
+            height: 100%;
+            // margin-top: -65px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            }
+    }
+
+}
+.ytp-show-cards-title, .ytp-impression-link{
+    display: none !important; 
+}
